@@ -11,7 +11,7 @@ Install the bundle through composer, then add it to your ``AppKernel.php`` file 
 ```php
 $bundles = array(
     // ...
-    new Gl3n\Bundle\SerializationGroupBundle\Gl3nSerializationGroupBundle(),
+    new Gl3n\SerializationGroupBundle\Gl3nSerializationGroupBundle(),
 );
 ```
 

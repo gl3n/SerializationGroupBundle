@@ -1,0 +1,24 @@
+{
+    "name": "gl3n/serialization-group-bundle",
+    "type": "symfony-bundle",
+    "description" : "Provides a way to organize serialization groups through configuration",
+    "keywords": ["serialization", "deserialization", "group"],
+    "authors": [
+        {
+            "name": "Glen Jaguin",
+            "email": "glen.jaguin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/framework-bundle": "~2.6"
+    },
+    "require-dev": {
+        "atoum/atoum":      "@stable",
+        "phpspec/prophecy": "~1.0"
+    },
+    "autoload": {
+        "psr-0": { "Gl3n\\SerializationGroupBundle\\": "" }
+    },
+    "target-dir": "Gl3n/SerializationGroupBundle"
+}
