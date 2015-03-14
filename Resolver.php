@@ -44,7 +44,7 @@ class Resolver
         $groupNames = [$groupName];
 
         if (isset($this->groups[$groupName])) {
-            if (!$this->authorizationChecker->isGranted($this->groups[$groupName]['roles'])) {
+            if (0 < count($this->groups[$groupName]['roles']) && !$this->authorizationChecker->isGranted($this->groups[$groupName]['roles'])) {
                 throw new AccessDeniedException(
                     sprintf('User has not the required role to use "%s" serialization group', $groupName)
                 );
