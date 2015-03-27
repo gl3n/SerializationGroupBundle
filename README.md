@@ -1,4 +1,4 @@
-# SerializationGroupBundle
+# SerializationGroupBundle [![Build Status](https://travis-ci.org/gl3n/SerializationGroupBundle.svg?branch=master)](https://travis-ci.org/gl3n/SerializationGroupBundle)
 
 SerializationGroupBundle provides a way to **organize serialization groups** through configuration.
 
